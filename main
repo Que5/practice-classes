@@ -1,0 +1,21 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+class Employee:
+    
+    def get_data(self, name, surname, age, role):
+        self.name = name
+        self.surname = surname
+        self.age = age
+        self.role = role
+
+# Create an instance of the Employee class
+first_employee = Employee()
+
+# Call the get_data method on the instance
+first_employee.get_data("Phumlani", "Dlamini", 30, "Private Banker")
+
+print(first_employee.name)  # Output: Phumlani
+print(first_employee.surname)  # Output: Dlamini
+print(first_employee.age)  # Output: 30
+print(first_employee.role)  # Output: Private Banker
